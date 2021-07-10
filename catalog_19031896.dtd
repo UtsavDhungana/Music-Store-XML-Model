@@ -1,0 +1,55 @@
+	<!ELEMENT musicStores (store, songs)>
+	<!ELEMENT store (storeName, address, contacts, webAddress, logo)>
+	
+	<!ATTLIST store storeID ID #REQUIRED>
+
+	<!ELEMENT storeName (#PCDATA)>
+	<!ELEMENT address (#PCDATA)>
+	<!ELEMENT contacts (phone+)>
+	<!ELEMENT phone (#PCDATA)>
+	<!ELEMENT webAddress (#PCDATA)>
+	<!ELEMENT logo EMPTY>
+
+	<!ELEMENT songs (song+)>
+
+	<!ATTLIST song rating CDATA #REQUIRED>
+	<!ATTLIST song genre (Country|Pop|Hip-hop|Jazz|Arena-Rock|Metal|Soft-Rock|Electro-House|Reggae) #REQUIRED>
+
+	<!ELEMENT song (name, singers, directors?, producers, writers, backGroundVocals?, releasedOn, duration, price, image)>
+
+	<!ELEMENT name (#PCDATA)>
+
+	<!ATTLIST name songID ID #REQUIRED>
+
+	<!ELEMENT singers (singer+, stageName?)>
+	<!ELEMENT singer (#PCDATA)>
+
+	<!ATTLIST singer title (Mr. | Mrs. | Ms. ) #IMPLIED>
+
+	<!ELEMENT stageName (#PCDATA)>
+	<!ELEMENT directors (director*)>
+	<!ELEMENT director (#PCDATA)>
+
+	<!ATTLIST director title (Mr. | Mrs. | Ms. ) #IMPLIED>
+
+	<!ELEMENT producers (producer+)>
+	<!ELEMENT producer (#PCDATA)>
+
+	<!ATTLIST producer title (Mr. | Mrs. | Ms. ) #IMPLIED>
+
+	<!ELEMENT writers (writer+)>
+	<!ELEMENT writer (#PCDATA)>
+
+	<!ATTLIST writer title (Mr. | Mrs. | Ms. ) #IMPLIED>
+
+	<!ELEMENT backGroundVocals (artist*)>
+	<!ELEMENT artist (#PCDATA)>
+
+	<!ATTLIST artist title (Mr. | Mrs. | Ms. ) #IMPLIED>
+
+	<!ELEMENT releasedOn (#PCDATA)>
+	<!ELEMENT duration (#PCDATA)>
+	<!ELEMENT price (#PCDATA)>
+	<!ELEMENT image EMPTY>
+
+	<!ATTLIST image imageID ID #REQUIRED>

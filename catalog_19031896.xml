@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="catalog_19031896.css"?> 
+<!DOCTYPE musicStores SYSTEM "catalog_19031896.dtd">
+
+
+<musicStores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_19031896.xsd">
+	<store storeID="MS1">
+		<storeName>Bee Music</storeName>
+		<address>Laxmi Sadak, Dharan</address>
+		<contacts>
+			<phone>9800118345</phone>
+			<phone>9827342355</phone>
+		</contacts>
+		<webAddress>www.BeeMusic.com.np</webAddress>
+		<logo/>
+	</store>
+
+	<songs>
+		<song rating="3.54" genre="Country">
+			<name songID="ARUTW1">Always Remember Us This Way</name>
+			<singers>
+				<singer title="Ms.">Stefani J.A. Germanotta</singer>
+				<stageName>Lady Gaga</stageName>
+			</singers>
+			<producers>
+				<producer title="Mr.">Dove Cobb</producer>
+				<producer title="Ms.">Stefani J.A. Germanotta</producer>
+			</producers>
+			<writers>
+				<writer title="Mrs.">Natalie Hemby</writer>
+				<writer title="Ms.">Hillary Lindsey</writer>
+				<writer title="Mrs.">Lori Mckenna</writer>
+				<writer title="Ms.">Stefani J.A. Germanotta</writer>
+			</writers>
+			<backGroundVocals>
+				<artist title="Mrs.">Natalie Hemby</artist>
+				<artist title="Ms.">Hillary Lindsey</artist>
+				<artist title="Mrs.">Lori Mckenna</artist>
+			</backGroundVocals>
+			<releasedOn>2018-11-24</releasedOn>
+			<duration>3:30</duration>
+			<price>$1.29</price>
+			<image imageID="i1"/>
+		</song>
+
+		<song rating="4.1" genre="Pop">
+			<name songID="SYL4">Someone You Loved</name>
+			<singers>
+				<singer title="Mr.">Lewis Capaldi</singer>
+			</singers>
+			<directors>
+				<director title="Mr.">Phil Beastall</director>
+			</directors>
+			<producers>
+				<producer title="Mr.">Thomas Barnes</producer>
+				<producer title="Mr.">Peter Kelleher</producer>
+				<producer title="Mr.">Benjamin Kohn</producer>
+			</producers>
+			<writers>
+				<writer title="Mr.">Lewis Capaldi</writer>
+				<writer title="Mr.">Samuel Romans</writer>
+				<writer title="Mr.">Thomas Barnes</writer>
+				<writer title="Ms.">Peter Kelleher</writer>
+				<writer title="Ms.">Benjamin Kohn</writer>
+			</writers>
+			<releasedOn>2018-11-08</releasedOn>
+			<duration>3:02</duration>
+			<price>$2</price>
+			<image imageID="i2"/>
+		</song>
+
+		<song rating="3.8" genre="Country">
+			<name songID="WL3">Whiskey Lullaby</name>
+			<singers>
+				<singer title="Mr.">Brad D. Paisley</singer>
+				<singer title="Ms.">Alison M. Krauss</singer>
+			</singers>
+			<directors>
+				<director title="Mr.">Richard B. Schroder</director>
+			</directors>
+			<producers>
+				<producer title="Mr.">Frank M. Rogers V</producer>
+			</producers>
+			<writers>
+				<writer title="Mr.">Bill Anderson</writer>
+				<writer title="Mr.">Jon Randall</writer>
+			</writers>
+			<releasedOn>2004-03-29</releasedOn>
+			<duration>4:19</duration>
+			<price>$1.88</price>
+			<image imageID="i3"/>
+		</song>
+		
+		<song rating="3" genre="Hip-hop">
+			<name songID="RG3">Rap God</name>
+			<singers>
+				<singer title="Mr.">Marshall Mathers</singer>
+				<stageName>Eminem</stageName>
+			</singers>
+			<directors>
+				<director title="Mr.">Richard Lee</director>
+			</directors>
+			<producers>
+				<producer title="Mr.">Bigram John Zayas</producer>
+				<producer title="Ms.">Mathew Delgiorno</producer>
+			</producers>
+			<writers>
+				<writer title="Mr.">Marshall Mathers</writer>
+				<writer title="Mr.">Bigram J. Zayas</writer>
+				<writer title="Mr.">Mathew Delgiorno</writer>
+				<writer title="Mr.">stephen Hacker</writer>
+				<writer title="Mr.">Douglas Davis</writer>
+				<writer title="Mr.">Richard Walters</writer>
+				<writer title="Ms.">Dania Birks</writer>
+			</writers>
+			<releasedOn>2013-10-15</releasedOn>
+			<duration>6:04</duration>
+			<price>$1.2</price>
+			<image imageID="i4"/>
+		</song>
+
+		<song rating="1.90" genre="Jazz">
+			<name songID="TL1">That's Life</name>
+			<singers>
+				<singer title="Ms.">Frank Sinatra</singer>
+			</singers>
+			<producers>
+				<producer title="Mr.">Jimmy Bowen</producer>
+			</producers>
+			<writers>
+				<writer title="Mr.">Dean Kay</writer>
+				<writer title="Ms.">Kelly Gordon</writer>
+			</writers>
+			<releasedOn>1966-11-18</releasedOn>
+			<duration>3:13</duration>
+			<price>$1</price>
+			<image imageID="i5"/>
+		</song>
+
+		<song rating="3.90" genre="Arena-Rock">
+			<name songID="WWRY">We Will Rock You</name>
+			<singers>
+				<singer>Queen</singer>
+			</singers>
+			<producers>
+				<producer>Queen</producer>
+				<producer title="Mr.">Mike Stone</producer>
+			</producers>
+			<writers>
+				<writer title="Mr.">Brian H. May</writer>
+			</writers>
+			<releasedOn>1977-10-10</releasedOn>
+			<duration>2:02</duration>
+			<price>$2.5</price>
+			<image imageID="i6"/>
+		</song>
+
+		<song rating="2" genre="Metal">
+			<name songID="ES2">Enter Sandman</name>
+			<singers>
+				<singer>Metallica</singer>
+			</singers>
+			<directors>
+				<director title="Mr.">Wayne Isham</director>
+			</directors>
+			<producers>
+				<producer title="Mr.">James Hetfield</producer>
+				<producer title="Mr.">Bob Rock</producer>
+				<producer title="Mr.">Lars Ulrich</producer>
+			</producers>
+			<writers>
+				<writer title="Mr.">Kirk Hammett</writer>
+				<writer title="Mr.">James Hetfield</writer>
+				<writer title="Mr.">Lars Ulrich</writer>
+			</writers>
+			<releasedOn>1991-07-29</releasedOn>
+			<duration>5:32</duration>
+			<price>$1.50</price>
+			<image imageID="i7"/>
+		</song>
+
+		<song rating="3.50" genre="Soft-Rock">
+			<name songID="WT3">Wonderful Tonight</name>
+			<singers>
+				<singer title="Mr.">Eric P. Clapton</singer>
+			</singers>
+			<producers>
+				<producer title="Mr.">Glyn Johns</producer>
+			</producers>
+			<writers>
+				<writer title="Mr.">Eric P. Clapton</writer>
+			</writers>
+			<releasedOn>1997-11-01</releasedOn>
+			<duration>3:44</duration>
+			<price>$2.22</price>
+			<image imageID="i8"/>
+		</song>
+
+		<song rating="3.57" genre="Electro-House">
+			<name songID="WFL3">We Found Love</name>
+			<singers>
+				<singer title="Ms.">Robyn R. Fenty</singer>
+				<stageName>Rihanna</stageName>
+			</singers>
+			<producers>
+				<producer title="Mr.">Calvin Harris</producer>
+			</producers>
+			<writers>
+				<writer title="Mr.">Calvin Harris</writer>
+			</writers>
+			<releasedOn>2011-09-22</releasedOn>
+			<duration>3:35</duration>
+			<price>$1.77</price>
+			<image imageID="i9"/>
+		</song>
+
+		<song rating="4" genre="Reggae">
+			<name songID="IY4">I'm Yours</name>
+			<singers>
+				<singer title="Ms.">Jason Mraz</singer>
+			</singers>
+			<producers>
+				<producer title="Mr.">Martin Terefe</producer>
+			</producers>
+			<writers>
+				<writer title="Mr.">Jason Mraz</writer>
+			</writers>
+			<releasedOn>2008-02-12</releasedOn>
+			<duration>4:03</duration>
+			<price>$2.5</price>
+			<image imageID="i10"/>
+		</song>
+
+	</songs>
+</musicStores>

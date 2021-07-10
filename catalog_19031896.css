@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+musicStores {
+	background-color: #007580;
+}
+
+* {
+	display: block;
+}
+
+directors, producers, backGroundVocals {
+	display: none;
+}
+
+price{
+	font-weight: bolder;
+	color: #2365EC;
+}
+
+name{
+	font-weight: bolder;
+	color: rgb(0,0,255);
+}
+
+price{
+	border:solid 0px black;
+}
+
+/*for header part*/
+store{
+	width: 100%;
+	height: 150px;
+	display: block;
+	background-color: #fed049;
+	color: black;
+	position: absolute;
+}
+
+/*for store name*/
+storeName{
+	text-align: center;
+	margin-top: 20px;
+	color: black;
+	font-size: 60px;
+	font-family: 'Lobster', cursive;
+	font-weight: bold;
+}
+
+address{
+	margin-top: 2px;
+	display: block;
+	top: 20px;
+	color: black;
+	font-size: 20px;
+	position: absolute;
+	left: 1780px;
+	font-family: 'Courier Prime', monospace;
+}
+
+contacts, webAddress{
+	display: block;
+	color: black;
+	list-style: all;
+	font-size: 20px;
+	position: relative;
+	right: -87.5%;
+	bottom: 30%;
+	font-family: 'Courier Prime', monospace;
+
+}
+contacts {
+	right: -86%;
+	padding-bottom: 15px;
+}
+
+logo{
+	background-image: url("Images/logo.png");
+	height: 150px;
+	width: 150px;
+	background-repeat: no-repeat;
+	background-size: 200px;
+	position: absolute;
+	top: 1%;
+}
+
+song::before{
+	width:100%;
+	height: 100px; 
+	content: "Genre: " attr(genre) "\A\ARating: " attr(rating);
+	position: relative;
+	white-space: pre;
+}
+
+songs {
+	margin-top: 10%;
+	margin-left: 5%;
+	margin-bottom: 50px;
+}
+
+
+song {
+	text-align: center;	
+}
+
+
+*{
+	font-family: 'Courier Prime', monospace;
+}
+
+/*for Always Remember Us This Way*/
+song[rating="3.54"]{
+	width: 450px; 
+	height: 460px;
+    margin-top: 15%;
+    padding-top: 400px;
+    padding-left: 15px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    word-spacing: 5px;
+    line-height: 23px;
+}
+
+/*for Someone You Loved*/
+song[rating="4.1"]{
+	width: 450px; 
+	height: 460px;
+    margin-top: 9%;
+    padding-top: 420px;
+    padding-left: 20px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    position: absolute;
+    right: 39%;
+    top: 10%;
+    word-spacing: 5px;
+    line-height: 23px;
+}
+
+/*for Rap God*/
+song[rating="3"]{
+	width: 450px; 
+	height: 465px;
+    margin-top: 14.5%;
+    padding-top: 410px;
+    padding-left: 20px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    position: absolute;
+    right: 6%;
+    top: -1%;
+    word-spacing: 5px;
+    line-height: 20px;
+
+}
+
+/*for Whiskey Lullaby*/
+song[rating="3.8"]{
+	width: 450px; 
+	height: 415px;
+    margin-top: 13.5%;
+    padding-top: 400px;
+    padding-left: 15px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    word-spacing: 5px;
+    line-height: 23px;
+}
+
+/*for That's Life*/
+song[rating="1.90"]{
+	width: 450px; 
+	height: 390px;
+    margin-top: 8.5%;
+    padding-top: 420px;
+    padding-left: 20px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    position: absolute;
+    right: 39%;
+    top: 119%;
+    word-spacing: 5px;
+    line-height: 23px;
+}
+
+/*for Wonderful Tonight*/
+song[rating="3.50"]{
+	width: 450px; 
+	height: 370px;
+    margin-top: 8.5%;
+    padding-top: 440px;
+    padding-left: 20px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    position: absolute;
+    right: 6%;
+    top: 119%;
+    word-spacing: 5px;
+    line-height: 23px;
+}
+
+/*for We Will Rock You*/
+song[rating="3.90"]{
+	width: 450px; 
+	height: 383px;
+    margin-top: 11%;
+    padding-top: 430px;
+    padding-left: 25px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    word-spacing: 5px;
+    line-height: 24px;
+    position: absolute;
+    right: 100%;
+    left: 5%;
+}
+
+/*for I'm Yours*/
+song[rating="4"]{
+	width: 450px; 
+	height: 393px;
+    margin-top: 14.8%;
+    padding-top: 420px;
+    padding-left: 20px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    position: absolute;
+    right: 38.5%;
+    top: 207.5%;
+    word-spacing: 5px;
+    line-height: 24px;
+}
+
+
+
+/*for Enter Sandman*/
+song[rating="2"]{
+	width: 450px; 
+	height: 427px;
+    margin-top: 14.8%;
+    padding-top: 380px;
+    padding-left: 20px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    position: absolute;
+    right: 5.5%;
+    top: 208%;
+    word-spacing: 5px;
+    line-height: 24px
+}
+
+
+
+/*for We Found Love*/
+song[rating="3.57"]{
+	width: 450px; 
+	height: 400px;
+    margin-top: 16%;
+    padding-top: 420px;
+    padding-left: 20px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 38%;
+    top: 303%;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+writer{
+	display: list-item;
+	list-style: disc inside;
+}
+
+webAddress {
+	color: rgb(0,0,128);
+}
+
+
+song[rating="3.57"]::after {
+	height: 50px;
+}
+
+
+/*using pseudo content*/
+name::before {
+	content: "\ASong: ";
+	white-space: pre;
+	font-weight: normal;
+	color: black;
+}
+
+stageName::before{
+	content: "Stage Name: "
+}
+
+singers::before {
+	content: "\A";
+	white-space: pre;
+}
+
+singer::before {
+	content: "Singer: " attr(title) " ";
+}       
+
+writers::before {
+	content: "\A Writers: ";
+	width: 100px;
+	height: 30px;
+	white-space: pre;
+}
+
+releasedOn::before {
+	content: "\AReleased On: ";
+	white-space: pre;
+}
+
+duration::before {
+	content: "\A Duration: ";
+	white-space: pre;
+}
+
+price::before {
+	content: "\APrice: ";
+	white-space: pre;
+}
+
+phone::before {
+	content: "Contact Us: ";
+}
+
+storeName::after {
+	content: "\A Let The Music Take You Away";
+	white-space: pre;
+	position: absolute;
+	padding-top: 35px;
+	margin-left: -13%;
+	font-weight: normal;
+	font-size: 25px;
+}
+
+
+
+/*image of Always Remember Us This Way*/
+image[imageID="i1"]{
+	background-image: url("Images/Always Remember Us This Way.png");
+	width: 550px;
+	height: 400px;
+	background-size: 420px;
+	background-repeat: no-repeat;
+	float: right;
+	position: absolute;
+	top: 25%;
+	left: 6%;
+	
+}
+
+/*image of Someone You Loved*/
+image[imageID="i2"]{
+	background-image: url("Images/Someone You Loved.jpg");
+	width: 550px;
+	height: 400px;
+	background-size: 430px;
+	background-repeat: no-repeat;
+	float: right;
+	position: absolute;
+	top: -4%;
+	left: 4%;
+}
+
+/*image of Rap God*/
+image[imageID="i4"]{
+	background-image: url("Images/Rap God.jpg");
+	width: 550px;
+	height: 400px;
+	background-size: 430px;
+	background-repeat: no-repeat;
+	float: right;
+	position: absolute;
+	top: -4%;
+	left: 4%;
+}
+
+/*image of Whiskey Lullaby*/
+image[imageID="i3"]{
+	background-image: url("Images/Whiskey Lullaby.jpg");
+	width: 550px;
+	height: 450px;
+	background-size: 428px;
+	background-repeat: no-repeat;
+	float: right;
+	position: absolute;
+	top: 131%;
+	left: 5.9%;
+}
+
+/*image of That's Life*/
+image[imageID="i5"]{
+	background-image: url("Images/That's Life.jpg");
+	width: 550px;
+	height: 450px;
+	background-size: 428px;
+	background-repeat: no-repeat;
+	float: right;
+	position: absolute;
+	top: -6%;
+	left: 4.5%;
+}
+
+/*image of Wonderful Tonight*/
+image[imageID="i8"]{
+	background-image: url("Images/Wonderful Tonight.jpg");
+	width: 550px;
+	height: 450px;
+	background-size: 428px;
+	background-repeat: no-repeat;
+	float: right;
+	position: absolute;
+	top: -6%;
+	left: 4.5%;
+}
+
+/*image of We Will Rock You*/
+image[imageID="i6"]{
+	background-image: url("Images/We Will Rock You.jpg");
+	width: 550px;
+	height: 450px;
+	background-size: 428px;
+	background-repeat: no-repeat;
+	float: right;
+	position: absolute;
+	top: -6%;
+	left: 4.5%;
+}
+
+/*image of I'm Yours*/
+image[imageID="i10"]{
+	background-image: url("Images/I'm Yours.jpg");
+	width: 550px;
+	height: 450px;
+	background-size: 428px;
+	background-repeat: no-repeat;
+	float: right;
+	position: absolute;
+	top: -6%;
+	left: 4.5%;
+}
+
+/*image of Enter Sandman*/
+image[imageID="i7"]{
+	background-image: url("Images/Enter Sandman.jpg");
+	width: 550px;
+	height: 450px;
+	background-size: 428px;
+	background-repeat: no-repeat;
+	float: right;
+	position: absolute;
+	top: -6%;
+	left: 4.5%;
+}
+
+/*image of We Found Love*/
+image[imageID="i9"]{
+	background-image: url("Images/We Found Love.jpg");
+	width: 550px;
+	height: 450px;
+	background-size: 428px;
+	background-repeat: no-repeat;
+	float: right;
+	position: absolute;
+	top: -6%;
+	left: 4.5%;
+}
+
